@@ -6,6 +6,8 @@
 }
 /* Cabeçalho */
 
+
+
 header{
     background-color: #3db36b;
     text-align: center;
@@ -84,7 +86,7 @@ h3{
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    background-color: #3db36b;
+    background-color:#707070;
     color: #fff;
     padding: 15px;
     border-radius: 5px;
@@ -135,4 +137,44 @@ footer{
 
 .btn-visited:visited {
         background-color: #21643a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tela_login{
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 300px;
+    background-image: url("https://thumbs.dreamstime.com/b/nubes-blancas-aisladas-sobre-el-ejemplo-negro-del-fondo-115985423.jpg");
+
+
+
+}
+body{
+    background-color: black;
+
+    
 }
