@@ -7,7 +7,7 @@
 /* Cabeçalho */
 
 header{
-    background-color: #7f7f7f;
+    background-color: #000000;
     text-align: center;
     padding: 15px;
     color: #fff;
@@ -39,31 +39,13 @@ header{
 }
 
 .produto-imagem{
-    height: 200px;
+    height: 275px;
     width: 100%;
     margin-bottom: 10px;
-    background-position: auto;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 5px;
-}
-
-#img-1{
-    background-image: url('../img/tenis1.jpg');
-}
-#img-2{
-    background-image: url('../img/tenis2.jpg');
-}
-#img-3{
-    background-image: url('../img/tenis3.jpg');
-}
-#img-4{
-    background-image: url('../img/tenis4.jpg');
-}
-#img-5{
-    background-image: url('../img/tenis5.jpg');
-}
-#img-6{
-    background-image: url('../img/tenis6.jpg');
 }
 
 h3{
@@ -94,7 +76,7 @@ h3{
 
 
 footer{
-    background-color: #7f7f7f;
+    background-color: #000000;
     text-align: center;
     padding: 80px;
     color: #fff;
