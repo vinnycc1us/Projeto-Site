@@ -9,7 +9,7 @@
 
 
 header{
-    background-color: #3db36b;
+    background-color: #000000;
     text-align: center;
     padding: 15px;
     color: #fff;
@@ -18,7 +18,7 @@ header{
 /* Grid de produtos */
 
 .container {
-    background-color: #eee;
+    background-color: #ffffff;
     min-height: 60vh;
     padding: 50px;
 }
@@ -29,41 +29,25 @@ header{
 }
 
 .card{
-    width: 29%;
+    width: 47%;
     margin: 1% 1%;
     display: inline-block;
     padding: 15px;
+    
 }
 .card2{
-    width: 29%;
+    width: 33%;
     display: inline-block;
 }
 
 .produto-imagem{
-    height: 300px;
+    height: 275px;
     width: 100%;
     margin-bottom: 10px;
     background-position: center;
     background-size: cover;
-}
-
-#img-1{
-    background-image: url('../img/tenis1.jpg');
-}
-#img-2{
-    background-image: url('../img/tenis2.jpg');
-}
-#img-3{
-    background-image: url('../img/tenis3.jpg');
-}
-#img-4{
-    background-image: url('../img/tenis4.jpg');
-}
-#img-5{
-    background-image: url('../img/tenis5.jpg');
-}
-#img-6{
-    background-image: url('../img/tenis6.jpg');
+    background-repeat: no-repeat;
+    border-radius: 5px;
 }
 
 h3{
@@ -86,37 +70,27 @@ h3{
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    background-color:#707070;
     color: #fff;
     padding: 15px;
     border-radius: 5px;
 }
 
-.btn-hover:hover {
-    background-color: #21643a;
-}
 
 footer{
-    background-color: #3db36b;
+    background-color: #000000;
     text-align: center;
     padding: 80px;
     color: #fff;
 }
 
-.btn2-Arte{
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    background-color: #3db36b;
-    color: #fff;
-    padding: 15px;
-    border-radius: 5px;
+.btn-hover:hover, .btn-visited:visited, .btn-hover2:hover{
+    background-color: #383939;
 }
-.btn2-Carros{
+.btn2-Arte, .btn2-Paisagens, .btn2-Carros{
     display: block;
     width: 100%;
     text-decoration: none;
-    background-color: #3db36b;
+    background-color: #707070;
     color: #fff;
     padding: 15px;
     border-radius: 5px;
@@ -177,4 +151,5 @@ body{
     background-color: black;
 
     
+}
 }
