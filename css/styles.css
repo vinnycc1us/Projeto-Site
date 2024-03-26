@@ -100,18 +100,18 @@ footer{
     display: block;
     width: 100%;
     text-decoration: none;
-    background-color: #3db36b;
+    background-color: #707070;
     color: #fff;
     padding: 15px;
     border-radius: 5px;
 }
 
 .btn-hover2:hover {
-    background-color: #21643a;
+    background-color: #383939;
 }
 
 .btn-visited:visited {
-        background-color: #21643a;
+        background-color: #383939;
 }
 
 
