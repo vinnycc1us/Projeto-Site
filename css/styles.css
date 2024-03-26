@@ -136,20 +136,53 @@ footer{
 
 
 
-
+body{
+    background-color: black;
+}
 .tela_login{
-    
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 300px;
     background-image: url("https://thumbs.dreamstime.com/b/nubes-blancas-aisladas-sobre-el-ejemplo-negro-del-fondo-115985423.jpg");
-
-
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div-h1-inicial{
+    padding: 15px;
+}
+.h1-inicial{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 20px; 
+    margin-left: 30px;
 
 }
-body{
-    background-color: black;
-
+.div-p-inicial{
+    padding:10px;
+}
+.div-a-inicial{
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn-inicial{
+    padding: 20px 150px;
+    background-color: #707070;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -90px; 
 }
 }
